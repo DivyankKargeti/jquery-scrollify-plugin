@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jquery scrollify smooth scroll</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+	<div class="container">
+		<section class="main" id="one"></section>
+		<section class="main" id="two"></section>
+		<section class="main" id="three"></section>
+		<section class="main" id="four"></section>
+	</div>
+<!--jquery cdn-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<!--Jquery scrollify cdn-->	
+<script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.19/jquery.scrollify.min.js" integrity="sha256-RGlAwHKG24hsj1109SGQgvR+Orx7u8c6zyYH4Tk3ydU=" crossorigin="anonymous"></script>
+<!--scrollify custom code-->
+<script>
+    $(function() {
+      $.scrollify({
+        section : ".main",
+      });
+    });
+</script>
+</body>
+</html>
