@@ -1,0 +1,3 @@
+This is a Practice project where I had used the following technologies: HTML, CSS, Jquery Scrollify plugin.
+
+The frame is of 100vh height and goes on and sets same size in every scroll.
